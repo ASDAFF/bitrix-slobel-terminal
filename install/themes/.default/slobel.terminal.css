@@ -1,0 +1,62 @@
+/*Menu icon*/
+.slobel_menu_icon {
+	background-image:url("icons/slobel.terminal/slobel_menu_icon.png");
+	background-position: center 0px;
+}
+/*Main*/
+#slobel-console-promt #log, #slobel-console-promt #command, #slobel-console-promt #cwd{
+	font-family: 'Courier New', Courier, monospace !important;
+}
+#slobel-console-promt #log{
+	width: 100%!important;
+	resize: none;
+	opacity: 1;
+	background-color: #3f3f3f;
+	color: #E0E2E4 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	border-bottom: none !important;
+	border-radius: 3px 3px 0 0 !important;
+	margin-bottom: 0px !important;
+}
+#slobel-console-promt #container{
+	width: 100% !important;
+	color: #FFFFFF;
+	background-color: #313131;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #87919c #959ea9 #9ea7b1 #959ea9;
+	border-radius: 0 0 3px 3px;
+	padding-right: 10px;
+	margin-top: -3px !important;
+	position: relative;
+}
+
+#slobel-console-promt #command{
+	width: 50%;
+	padding-left: 0px;
+	background-color: transparent;
+	color: #FFFFFF;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#slobel-console-promt #cwd{
+	padding-left: 5px;
+}
+#slobel-console-promt #history{
+	display: none !important;
+}
+#slobel-console-promt #os-version{
+	color: #888888;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+#slobel-error{
+	background-color: #EAE0E0 !important;
+	border-bottom: 11px solid #F9F5F5 !important;
+	color: #674B4B !important;
+}
